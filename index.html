@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ Live - Uganda's Home of VJ Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">VJ <span>LIVE</span></div>
+
+```
+<nav>
+    <a href="#">Home</a>
+    <a href="#movies">Movies</a>
+    <a href="#ugandan">Ugandan</a>
+    <a href="#vj">VJ Movies</a>
+</nav>
+
+<div class="nav-right">
+    <button class="search-btn" onclick="openSearch()">🔍</button>
+    <button class="login-btn">Login</button>
+</div>
+```
+
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="small-title">VJ LIVE ORIGINAL</p>
+        <h1>The Last Journey</h1>
+        <p class="movie-info">2026 • Drama • Action • Uganda</p>
+
+```
+    <p class="description">
+        Experience an unforgettable African story filled with
+        action, emotion and adventure.
+    </p>
+
+    <div class="hero-buttons">
+        <button class="watch-btn" onclick="watchMovie()">▶ Watch Now</button>
+        <button class="list-btn">+ My List</button>
+    </div>
+</div>
+```
+
+</section>
+
+<section class="movie-section" id="movies">
+    <div class="section-title">
+        <h2>🔥 Trending Now</h2>
+    </div>
+
+```
+<div class="movie-grid">
+    <div class="movie-card">
+        <div class="poster poster1"><span>HD</span></div>
+        <h3>The Last Journey</h3>
+        <p>Action • Drama</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster2"><span>VJ</span></div>
+        <h3>City of Dreams</h3>
+        <p>Drama • Romance</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster3"><span>HD</span></div>
+        <h3>Hidden Truth</h3>
+        <p>Thriller • Action</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster4"><span>VJ</span></div>
+        <h3>African Story</h3>
+        <p>Drama • African</p>
+    </div>
+</div>
+```
+
+</section>
+
+<section class="movie-section" id="ugandan">
+    <div class="section-title">
+        <h2>🇺🇬 Ugandan Movies</h2>
+    </div>
+
+```
+<div class="movie-grid">
+    <div class="movie-card">
+        <div class="poster poster5"><span>UG</span></div>
+        <h3>Kampala Nights</h3>
+        <p>Drama</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster6"><span>UG</span></div>
+        <h3>The Village</h3>
+        <p>Drama • Family</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster7"><span>UG</span></div>
+        <h3>Love in Kampala</h3>
+        <p>Romance</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster8"><span>UG</span></div>
+        <h3>Street Life</h3>
+        <p>Action • Drama</p>
+    </div>
+</div>
+```
+
+</section>
+
+<section class="movie-section" id="vj">
+    <div class="section-title">
+        <h2>🎤 VJ Movies</h2>
+    </div>
+
+```
+<div class="movie-grid">
+    <div class="movie-card">
+        <div class="poster poster9"><span>VJ</span></div>
+        <h3>VJ Movie One</h3>
+        <p>VJ Narration</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster10"><span>VJ</span></div>
+        <h3>VJ Movie Two</h3>
+        <p>VJ Narration</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster11"><span>VJ</span></div>
+        <h3>VJ Movie Three</h3>
+        <p>VJ Narration</p>
+    </div>
+
+    <div class="movie-card">
+        <div class="poster poster12"><span>VJ</span></div>
+        <h3>VJ Movie Four</h3>
+        <p>VJ Narration</p>
+    </div>
+</div>
+```
+
+</section>
+
+<footer>
+    <div class="logo">VJ <span>LIVE</span></div>
+    <p>Uganda's Home of VJ Movies</p>
+    <p>© 2026 VJ Live. All rights reserved.</p>
+</footer>
+
+<div id="searchBox" class="search-overlay">
+    <button class="close-search" onclick="closeSearch()">✕</button>
+    <input type="text" id="searchInput" placeholder="Search movies..." onkeyup="searchMovies()">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
